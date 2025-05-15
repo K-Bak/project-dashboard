@@ -35,7 +35,7 @@ procent = samlet / q2_maal if q2_maal else 0
 antal_solgte = len(df)
 
 # --- Ugeopsætning ---
-start_uge = df['Uge'].min()
+start_uge = 18
 slut_uge = 26
 alle_uger = list(range(start_uge, slut_uge + 1))
 
